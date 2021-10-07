@@ -1,0 +1,203 @@
+body {
+  background-color: #C7DCD5;
+  margin: 8px;
+}
+
+/* Add a black background color to the top navigation bar */
+
+
+.navigation {
+  display: inline-flex;
+  align-items: center;
+
+
+}
+
+.logo {
+  display: inline-flex;
+  align-content: center;
+  margin: 0px 48px;
+
+
+}
+
+/* Style the links inside the navigation bar */
+.navigation a {
+  color: #3C534C;
+  padding: 0px 16px;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: Arial;
+  font-weight: bold;
+
+}
+
+
+
+/* Style the search box inside the navigation bar */
+.navigation input[type=text] {
+  float: right;
+  padding: 8px;
+  margin-right: 16px;
+  margin-left:16px;
+  font-size: 14px;
+  border-radius: 20px;
+
+}
+
+.navigation button {
+  background-color: #3C534C;
+  border: none;
+  color: white;
+  padding: 10px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 30px;
+  font-family: Arial;
+
+}
+
+h3{
+  color:#3C534C;
+  font-size: 32px;
+  font-family: "PT Serif";
+  font-weight: bold;
+  margin: 8px 0;;
+}
+
+
+h5{
+  color: #3C534C;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: Arial;
+  font-weight: bold;
+  margin: 0;
+}
+
+h6{
+
+  color: #3C534C;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: Arial;
+  margin: 24px 90px;
+  text-align: left;
+
+}
+
+
+.productdetail li{
+  color: #3C534C;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: Arial;
+   margin: 2px 0;
+   padding: 4px 0;
+   font-weight: bold;
+}
+
+.breadcrumb {
+  padding: 32px 100px;
+}
+
+/* ---------productpic section-------- */
+
+.productpic{
+  display: flex;
+  align-items: center;
+  margin: 0 0 0 20px;
+
+}
+
+.productpic i{
+  padding: 32px;
+  color: #3C534C;
+}
+
+.circles i {
+  color: #3C534C;
+}
+
+.circles{
+  margin: 20px 0 0 300px;
+}
+
+.productdetail {
+  display: block;
+  justify-content: space-between;
+  vertical-align: middle;
+  background-color: #C7DCD5;
+  width:350px;
+  padding-left:100px;
+}
+
+.colorselection{
+  display: flex;
+  margin: 12px 0px;
+
+}
+
+.colorselection i {
+  padding: 0px 8px;
+}
+
+.sizeselection{
+  display: flex;
+  margin: 12px 0px;
+  align-items: center;
+}
+
+.sizeselection button{
+   padding: 0 8px;
+   margin: 0 12px;
+   width: 48px;
+   height: 24px;
+   background-color:#C7DCD5;
+   border-radius:0px;
+   border: 2px solid white;
+}
+
+.quantityselection button{
+  width: 60px;
+  height: 32px;
+  background-color: white;
+  border: 2px solid #98B8AE;
+  text-align: center;
+
+}
+
+.addtobag button {
+ margin: 32px 0;
+ padding: 16px 32px;
+ font-size:18px;
+ font-family: Arial;
+ color:white;
+ background-color:#3C534C;
+ border: none;
+ border-radius: 30px;
+
+}
+
+
+.main {
+  display: inline-flex;
+
+}
+
+.detaildescription{
+  margin: 48px 0;
+}
+
+
+.detaildescription p{
+  margin: 0 50px 0 90px;
+  color: #3C534C;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: Arial;
+  font-weight: bold;
+
+}
